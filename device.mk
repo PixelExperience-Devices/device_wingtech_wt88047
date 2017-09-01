@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshims_flp \
     libshims_get_process_name \
-    libshims_ims \
     libshim_camera
 
 # Audio
