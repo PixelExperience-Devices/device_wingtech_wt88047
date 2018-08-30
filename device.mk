@@ -116,24 +116,18 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio.primary.msm8916 \
     audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
     tinymix \
-    audio.primary.msm8916 \
-    audio.a2dp.default \
-    audio.usb.default \
-    audio.r_submix.default \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors \
     libqcompostprocbundle\
     android.hardware.audio@2.0-impl \
     android.hardware.audio@2.0-service \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.soundtrigger@2.0-impl
+    android.hardware.audio.effect@2.0-impl
 
 # Bluetooth
 PRODUCT_PACKAGES += \
