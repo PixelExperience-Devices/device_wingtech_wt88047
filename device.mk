@@ -262,4 +262,8 @@ PRODUCT_PACKAGES += \
     sensors.msm8916 \
     sensors.wt88047
 
+# Charger
+PRODUCT_PACKAGES += \
+    chargeonlymode
+
 include device/wingtech/wt88047/default-prop.mk
