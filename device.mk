@@ -240,7 +240,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.msm8916 \
     libmm-qcamera \
-    GoogleCamera-v2.7
+    Snap
 
 # GPS
 PRODUCT_PACKAGES += \
