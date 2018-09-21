@@ -9,8 +9,3 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.usb.id.ptp_adb=ff18 \
     ro.usb.id.ums=ff20 \
     ro.usb.id.ums_adb=ff28
-
-# Debug
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=0 \
-    ro.secure=0
