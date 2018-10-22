@@ -15,9 +15,16 @@ vendor/lib/soundfx/libqcreverb.so|725ce9f7d696dae58da423f33dbbf2abcf16b9ac
 vendor/lib/soundfx/libqcvirt.so|5393f3a58247619413f35b7550d48e7cc0bd39d5
 
 # Bluetooth - from jalebi
-bin/btnvtool:vendor/bin/btnvtool|2a673ba673797ecdce19617eb260b791f317eff9
-bin/hci_qcomm_init:vendor/bin/hci_qcomm_init|717a6d532ad9454d86be81c9ca8079711f2cc628
 vendor/lib/libbtnv.so|b4b692e2a89f97677d66cb26152cade106bb1cc4
+
+# Bluetooth - from aljeter OPP27.61-14-4
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so|24e30d803c9f312bc1813d89bd70cf2c64a0b9ae
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|9a330c399b3b07040bb63fa62773b1f24e29fdd8
+
+# Bluetooth Qualcommm aptX
+vendor/lib/libaptXHD_encoder.so|984739a0bc968e18f75ced205733fe3f51c2d4f0
+vendor/lib/libaptX_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e01c
+vendor/lib/libldacBT_enc.so|6b9ad026c3e4dcd5cba654bd7b3848a0446f4e8c
 
 # Camera
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon

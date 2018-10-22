@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc \
     init.qcom.ims.rc \
-    init.qcom.bt.sh \
     init.qcom.usb.rc \
     fstab.qcom \
     init.target.rc
@@ -132,7 +131,6 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor \
-    android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service
 
 # Configstore
